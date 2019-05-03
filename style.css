@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{margin: 0px}
+section{
+    display: block;
+    padding: 1rem;
+}
+h1{
+    font-family: 'Special Elite', cursive;
+    font-size:3rem;
+    line-height: 4rem;
+    color: #FFFFFF;
+}
+img{
+    margin: -0.5rem;
+}
+h2{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'open sans';
+}
+p{
+    max-width: 38rem;
+    margin: 1rem auto;
+    color:#D3D3D3;
+    font-family: 'open sans';
+}
+.sec{
+    background-image: url(./surs/graphics/bg.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 9rem;
+}
+.sec2{
+    background-color: #2D4823;
+    text-align: center;
+}
+.wt{
+    margin-bottom:4rem; 
+    color: #FFFFFF;
+}
+.round{
+    background-color: #4F6A13;
+    width: 18rem;
+    height: 18rem;
+    margin: 0rem auto -7rem;
+    border-radius: 50%;
+    position: relative;
+    right: 9rem;
+}
+.roundr{
+    background-color: #4F6A13;
+    width: 18rem;
+    height: 18rem;
+    margin: 0rem auto -7rem;
+    border-radius: 50%;
+    position: relative;
+    left:9rem; 
+}
+.roundin{
+    max-width: 75%;
+}
